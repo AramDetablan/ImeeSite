@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title> Gallery </title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.css" integrity="sha512-6lLUdeQ5uheMFbWm3CP271l14RsX1xtx+J5x2yeIDkkiBpeVTNhTqijME7GgRKKi6hCqovwCoBTlRBEC20M8Mg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+<link href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css" rel="stylesheet">
+
+<style>
+   @font-face { font-family: Valorant; src: url('Valorant.ttf'); } 
+
+
+  body{
+    background:black;
+  }
+  .container-gallery{
+      display: flex;
+    justify-content: center;
+    padding: 0 7% 2% 7%;
+  }
+  h2{
+    font-family: 'Valorant';
+  }
+  h3{
+font-size: 25px;
+    padding-top: 14px;
+    margin: 0;
+    line-height: 1rem;
+  }
+div.gallery {
+  margin: 5px;
+  border: 2px solid #000;
+  float: left;
+  width: 180px;
+  border-radius:15px;
+}
+
+div.gallery:hover {
+  border: 2px solid #000000;
+}
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+  border-radius: 15px 15px 0 0;
+}
+
+div.desc {
+    margin: 15px 0 15px 0;
+}
+.col-gallery{
+width:100%;
+}
+.button {
+ background-color: #FD4556;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 1px 0 15px 0;
+    cursor: pointer;
+    border-radius: 6px;
+}
+.button:hover{
+  background-color:#53212B;
+  color:#FD4556;
+}
+.col-content {
+    background: #FFFBF5;
+    border-radius: 0 0 15px 15px;
+    padding:15px;
+} 
+ .slick-dots li.slick-active button:before {
+  font-size:12px;
+    color: green;
+}
+.slick-dots li button:before{
+  font-size:10px;
+  color:white;
+}
+.slick-prev:before, .slick-next:before {
+    font-size:25px;
+    color:green;
+}
+.h2-training{
+  padding: 2% 7% 0 7%;
+}
+.h2-training h2{
+  font-size:35px;
+  color:white;
+  font-weight:700;
+}
+a.button {
+    font-family:'Valorant';
+}
+</style>
+</head>
+<body>
+  <div class="h2-training">
+  <h2> Valorant Tips </h2>
+</div>
+  <div class="container-gallery">
+
+<div class="col-gallery">
+<div class="gallery">
+  <a target="_blank" href="#">
+    <img src="images/right.jpg" alt="Cinque Terre" width="600" height="auto">
+  </a>
+  <div class="col-content">
+  <h3> Decision Making </h3>
+  <div class="desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ultrices neque ornare aenean euismod elementum nisi quis eleifend quam. At elementum eu facilisis sed odio.</div>
+  <a href="decision.html" class="button">Read More</a>
+</div>
+</div>
+
+<div class="gallery">
+  <a target="_blank" href="img_forest.jpg">
+    <img src="images/placement.jpg" alt="Forest" width="100%" height="400">
+  </a>
+    <div class="col-content">
+       <h3> Crosshair Placement </h3>
+  <div class="desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ultrices neque ornare aenean euismod elementum nisi quis eleifend quam. At elementum eu facilisis sed odio.</div>
+    <a href="placement.html" class="button">Read More</a>
+  </div>
+</div>
+
+<div class="gallery">
+  <a target="_blank" href="img_lights.jpg">
+    <img src="images/crosshair.jpg" alt="Northern Lights" width="100%" height="400">
+  </a>
+    <div class="col-content">
+       <h3> Crosshair Settings </h3>
+  <div class="desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ultrices neque ornare aenean euismod elementum nisi quis eleifend quam. At elementum eu facilisis sed odio. </div>
+    <a href="Crosshair.html" class="button">Read More</a>
+  </div>
+</div>
+
+<div class="gallery">
+  <a target="_blank" href="img_mountains.jpg">
+    <img src="images/5tips.jpg" alt="Mountains" width="600" height="400">
+  </a>
+    <div class="col-content">
+       <h3> 5 Aim Tips Guide </h3>
+  <div class="desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ultrices neque ornare aenean euismod elementum nisi quis eleifend quam. At elementum eu facilisis sed odio.</div>
+    <a href="5tips.html" class="button">Read More</a>
+  </div>
+</div>
+</div>
+</div>
+<script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
+
+<script type="text/javascript" src="/slick/slick.min.js"></script>
+<script>
+  $(document).ready(function(){
+   $('.col-gallery').slick({
+  dots: true,
+  infinite: true,
+  speed: 300,
+  slidesToShow: 3,
+  slidesToScroll: 1,
+  responsive: [
+    {
+      breakpoint: 1024,
+      settings: {
+        slidesToShow: 2,
+        slidesToScroll: 1,
+        infinite: true,
+        dots: true
+      }
+    },
+    {
+      breakpoint: 600,
+      settings: {
+        slidesToShow: 1,
+        slidesToScroll: 1
+      }
+    },
+    {
+      breakpoint: 480,
+      settings: {
+        slidesToShow: 1,
+        slidesToScroll: 1
+      }
+    }
+    // You can unslick at a given breakpoint now by adding:
+    // settings: "unslick"
+    // instead of a settings object
+  ]
+});
+});
+</script>
+</body>
+</html>
+
+
