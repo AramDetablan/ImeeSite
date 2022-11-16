@@ -1,0 +1,464 @@
+ @font-face { font-family: Valorant; src: url('Valorant.ttf'); } 
+html,body{
+      margin: 0;
+      padding: 0;
+background:url("viper.jpg");
+background-size: cover;
+    background-repeat: no-repeat;
+}
+header{
+     width: 100%;
+    position: fixed;
+    top: 0;
+    bottom: auto
+}
+h1{
+    font-size: 60px;
+    color:#fff;
+}
+h2{
+    font-family: 'Valorant';
+    color:white;
+}
+h2{
+    font-family: 'Valorant';
+    color:white;
+}
+h4{
+    font-size: 25px;
+        color:#fff;
+}
+h5{
+    font-size: 20px;
+        color:#fff;
+}
+h6{
+    font-size:16px;
+        color:#fff;
+}
+p{
+    font-family: 'Arial';
+    color:white;
+    line-height: 1.5em;
+}
+
+.container {
+display: flex;
+padding: 2% 7% 7% 7%;
+}
+.col-1{
+width: 50%;
+}
+.picture {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.social-icons {
+    text-align: center;
+}
+.col-2{
+width:50%;
+}
+button.btn-class {
+    padding: 20px 40px 20px 40px;
+    font-size: 40px;
+    font-family: "sans-serif";
+    background: pink;
+}
+ul#cta-ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 10px;
+    padding:2% 7% 2% 2%;
+    font-size: 45px;
+font-weight: 700;
+    font-family: 'Valorant';
+	color: #fff;
+    z-index: 99;
+}
+h1{
+color: #3cd070;
+}
+h1:hover{
+padding-left:50px;
+color:black;
+}
+img.cta-border {
+}
+img{
+}
+p.cta-content {
+     margin: 0;
+
+    color: #3cd070;
+background: black;
+    padding: 10px;
+    width: 50%;
+text-align:center;
+}
+li:hover{
+
+color: green;
+}
+
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -22px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+/* Number text (1/3 etc) */
+.numbertext {
+    background: green;
+    border-radius: 7px;
+    padding: 11px;
+    font-size: 11px;
+    color:white;
+    font-weight: 600;
+    font-family: "sans-serif";
+    position: absolute;
+    top: 0;
+}
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 9px;
+  width: 9px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+.active, .dot:hover {
+  background-color: green;
+}
+/* Fading animation */
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+.fa {
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+  background: transparent;
+  color: white;
+}
+.fa-twitter {
+  background: transparent;
+  color: white;
+}
+
+.fa-google {
+  background: transparent;
+  color: white;
+}
+.fa-youtube {
+  background: transparent;
+  color: white;
+  border-radius:;
+}
+.social-icons a.fa {
+    border-radius: 15px;
+    font-size:30px
+}
+
+.social-icons .fa:before {
+    font-size: 28px;
+}
+.social-icons .fa{
+    padding:7px;
+    
+}
+.container-gallery{
+      display: flex;
+    justify-content: center;
+    padding: 0 7% 2% 7%;
+  }
+.col-content h3 {
+    color: black;
+    margin:0;
+    font-family:'Valorant';
+}
+div.gallery {
+  margin: 5px;
+  border: 2px solid #000;
+  float: left;
+  width: 180px;
+  border-radius:15px;
+}
+
+div.gallery:hover {
+  border: 2px solid #000000;
+}
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+  border-radius: 15px 15px 0 0;
+}
+
+div.desc {
+    margin: 15px 0 15px 0;
+}
+.col-gallery{
+width:100%;
+}
+.button {
+ background-color: #FD4556;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 1px 0 15px 0;
+    cursor: pointer;
+    border-radius: 6px;
+}
+.button:hover{
+  background-color:#53212B;
+  color:#FD4556;
+}
+.col-content {
+    background: #FFFBF5;
+    border-radius: 0 0 15px 15px;
+    padding:15px;
+} 
+ .slick-dots li.slick-active button:before {
+  font-size:12px;
+    color: green;
+}
+.slick-dots li button:before{
+  font-size:10px;
+  color:white;
+}
+.h2-training{
+  padding: 2% 7% 0 7%;
+}
+.h2-training h2{
+  font-size:35px;
+  color:white;
+  font-weight:700;
+}
+div.gallery {
+  margin: 5px;
+  border: 2px solid #000;
+  float: left;
+  width: 180px;
+  border-radius:15px;
+}
+
+div.gallery:hover {
+  border: 2px solid #000000;
+}
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+  border-radius: 15px 15px 0 0;
+}
+
+div.desc {
+    margin: 15px 0 15px 0;
+}
+.col-gallery{
+width:100%;
+}
+.button {
+ background-color: #FD4556;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 1px 0 15px 0;
+    cursor: pointer;
+    border-radius: 6px;
+}
+.button:hover{
+  background-color:#53212B;
+  color:#FD4556;
+}
+.col-content {
+    background: #FFFBF5;
+    border-radius: 0 0 15px 15px;
+    padding:15px;
+} 
+ .slick-dots li.slick-active button:before {
+  font-size:12px;
+    color: green;
+}
+.slick-dots li button:before{
+  font-size:10px;
+}
+.slick-prev:before, .slick-next:before {
+    font-size:25px;
+    color:green !important;
+}
+.h2-training{
+  padding: 2% 7% 0 7%;
+}
+.h2-training h2{
+  font-size:35px;
+  color:white;
+  font-weight:700;
+}
+a.button {
+    font-family:'Valorant';
+}
+p.paragraph-placement {
+    width: 70%;
+}
+.post-back {
+    text-align: center;
+}
+.col-1 p {
+    width: 70%;
+}
+@media only screen and (max-width: 600px) {
+    ul#cta-ul {
+    font-size: 37px;
+    padding: 30px;
+}
+.container {
+    display: flex;
+    flex-direction: column;
+}
+.col-1 {
+    width: 100%;
+}
+p.cta-content {
+    width: 100%;
+}
+img.cta-border {
+    width: 100%;
+}
+.col-2 {
+    width: 100%;
+}
+}
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .prev, .next,.text {font-size: 11px}
+}
+.section-slider{
+    padding: 1% 0 1% 0;
+    background-color:#dc3d4b;
+    overflow: hidden;
+}
+        .slider-col {
+    position: relative;
+    overflow: hidden;
+
+}
+
+.slider-col  {
+    width: -webkit-fit-content;
+    width: -moz-fit-content;
+     width: max-content;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    position: relative;
+    -webkit-transform: translate3d(calc(-25% + 20vw), 0, 0);
+    transform: translate3d(calc(-25% + 20vw), 0, 0);
+    -webkit-animation: marquee 100s linear infinite;
+    animation: marquee 15s linear infinite;
+
+}
+
+.marquee img {
+    padding: 0 2vw;
+    width: 400vh;
+
+}
+img.marquee {
+        width: 80px;
+    height: 80px;
+    margin-left:30px;
+    color: white;
+    font-size: 70px;
+    border: 4px solid #042e27;
+}
+@-webkit-keyframes marquee {
+    0% {
+        -webkit-transform: translate3d(calc(-50% + 20vw), 0, 0);
+        transform: translate3d(calc(-50% + 20vw), 0, 0);
+    }
+
+    100% {
+        -webkit-transform: translate3d(calc(-25% + 20vw), 0, 0);
+        transform: translate3d(calc(-25% + 20vw), 0, 0);
+    }
+}
+
+
+@keyframes marquee {
+    0% {
+        -webkit-transform: translate3d(calc(-50% + 20vw), 0, 0);
+        transform: translate3d(calc(-50% + 20vw), 0, 0);
+    }
+
+    100% {
+        -webkit-transform: translate3d(calc(-25% + 20vw), 0, 0);
+        transform: translate3d(calc(-25% + 20vw), 0, 0);
+    }
+}
+img.imahe {
+    height: 44vh;
+}
